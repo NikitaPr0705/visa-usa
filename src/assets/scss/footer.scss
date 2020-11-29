@@ -1,0 +1,14 @@
+@import "fonts";
+@import 'normalize.scss';
+@import "common";
+@import "media";
+@import "mixins";
+@import "variables";
+
+
+@media (max-width: 767px) {
+  .footer {
+    display: none;
+  }
+
+}

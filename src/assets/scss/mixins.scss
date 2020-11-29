@@ -1,0 +1,27 @@
+@import "variables";
+
+@mixin main-btn {
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  overflow-wrap: break-word;
+  letter-spacing: 0.01em;
+  font-weight: bold;
+  cursor: pointer;
+  line-height: 1em;
+  color: #ffffff;
+  border: none;
+  text-transform: uppercase;
+  padding: 1em 1.8em 1em 2em;
+  transition: $transition;
+  border-radius: .3em;
+}
+
+@mixin font-main {
+  font-family: 'Montserrat', sans-serif;
+}
+
+@mixin font-secondary {
+  font-family: 'Source Serif Pro', serif;
+}
